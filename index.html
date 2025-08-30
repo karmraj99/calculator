@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="box1">
+        <div class="resultDiv">
+            <input type="text" class="result" readonly>
+        </div>
+        <div class="box4">
+            <button class="clear" onclick="calculetion=``;document.querySelector(`.result`).value=calculetion;">C</button>
+            <button class="equal" onclick="let ans=eval(calculetion);calculetion=ans;document.querySelector(`.result`).value=calculetion;">=</button>
+        </div>
+        <div class="box2">
+            <button id="button" class="b1" onclick="calculetion=calculetion+`1`;document.querySelector(`.result`).value=calculetion;">1</button>
+            <button id="button" class="b2" onclick="calculetion=calculetion+`2`;document.querySelector(`.result`).value=calculetion;">2</button>
+            <button id="button" class="b3" onclick="calculetion=calculetion+`3`;document.querySelector(`.result`).value=calculetion;">3</button>
+            
+            <button id="button" class="b4" onclick="calculetion=calculetion+`4`;document.querySelector(`.result`).value=calculetion;">4</button>
+            <button id="button" class="b5" onclick="calculetion=calculetion+`5`;document.querySelector(`.result`).value=calculetion;">5</button>
+            <button id="button" class="b6" onclick="calculetion=calculetion+`6`;document.querySelector(`.result`).value=calculetion;">6</button>
+            
+            <button id="button" class="b7" onclick="calculetion=calculetion+`7`;document.querySelector(`.result`).value=calculetion;">7</button>
+            <button id="button" class="b8" onclick="calculetion=calculetion+`8`;document.querySelector(`.result`).value=calculetion;">8</button>
+            <button id="button" class="b9" onclick="calculetion=calculetion+`9`;document.querySelector(`.result`).value=calculetion;">9</button>
+            
+            <button id="button" class="b0" onclick="calculetion=calculetion+`0`;document.querySelector(`.result`).value=calculetion;">0</button>
+        </div>
+        <div class="box3">
+            <button id="button2" class="ba" onclick="calculetion=calculetion+`+`;document.querySelector(`.result`).value=calculetion;">+</button>
+            <button id="button2" class="bs" onclick="calculetion=calculetion+`-`;document.querySelector(`.result`).value=calculetion;">-</button>
+            <button id="button2" class="bm" onclick="calculetion=calculetion+`*`;document.querySelector(`.result`).value=calculetion;">*</button>
+            <button id="button2" class="bd" onclick="calculetion=calculetion+`/`;document.querySelector(`.result`).value=calculetion;">/</button>
+        </div>
+    </div>
+<script src="calculator.js"></script>
+</body>
+</html>

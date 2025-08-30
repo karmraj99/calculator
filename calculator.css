@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+body{
+    height: 90vh;
+}
+
+.box1{
+    background-color: rgb(81, 156, 125);
+    margin: 1% 0px 0px 30%;
+    height: 100%;
+    width: 37%;
+}
+
+.resultDiv{
+    top: 2%;
+    left: 2%;
+    position: relative;
+    display: inline;
+}
+
+.result{
+    background-color: rgb(255, 255, 255);
+    height: 15%;
+    width: 95%;
+    font-size: calc(20 * 15%)
+    
+}
+
+.box2{
+    background-color: white;
+    height: 65%;
+    width: 70%;
+    display: inline-flex;
+    vertical-align: top;
+    position: relative;
+    top: 6%;
+    left: 3%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box3{
+    background-color: white;
+    height: 65%;
+    width: 20%;
+    display: inline-flex;
+    vertical-align: top;
+    position: relative;
+    top: 6%;
+    left: 5%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box4{
+    width: 25%;
+    height: 9%;
+    position: relative;
+    top: 5%;
+    left: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.clear{
+     height: auto;
+    width: 35%;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    display: inline;
+    font-size: medium;
+    background-color: rgb(15, 57, 110);
+}
+
+.clear:active{
+    background-color: green;
+}
+
+.equal{
+     height: auto;
+    width: 35%;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    display: inline;
+    font-size: medium;
+    background-color: rgb(15, 57, 110);
+}
+
+.equal:active{
+    background-color: green;
+}
+
+#button{
+    height: 15%;
+    width: 15%;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-size: medium;
+}
+
+#button:active{
+    background-color: green;
+}
+
+#button2{
+    height: 15%;
+    width: 55%;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-size: medium;
+}
+
+#button2:active{
+    background-color: green;
+}
+
+.b1{
+    margin: 2% 10% 4% 6%;
+}
+
+.b2{
+    margin: 2% 10% 4% 10%;
+}
+
+.b3{
+    margin: 2% 2% 4% 10%;
+}
+
+.b4{
+    margin: 2% 10% 4% 6%;
+}
+
+.b5{
+    margin: 2% 10% 4% 10%;
+}
+
+.b6{
+    margin: 2% 2% 4% 10%;
+}
+
+.b7{
+    margin: 2% 10% 4% 6%;
+}
+
+.b8{
+    margin: 2% 10% 4% 10%;
+}
+
+.b9{
+    margin: 2% 2% 4% 10%;
+}
+
+.b0{
+    margin: 2% 0px 4% 41%;
+}
+
+.ba{
+    margin: 7% 0px 29% 20%;
+}
+
+.bs{
+    margin: 7% 0px 29% 20%;
+}
+
+.bm{
+    margin: 7% 0px 29% 20%;
+}
+
+.bd{
+    margin: 7% 0px 29% 20%;
+}
+
+@media (max-width: 900px) {
+    .box1{
+    background-color: rgb(81, 156, 125);
+    margin: 1% 0px 0px 20%;
+    height: 100%;
+    width: 50%;
+    }
+}
+
+@media (max-width: 680px) {
+     .box1{
+    background-color: rgb(81, 156, 125);
+    margin: 1% 0px 0px 15%;
+    height: 100%;
+    width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+     .box1{
+    background-color: rgb(81, 156, 125);
+    margin: 1% 0px 0px 10%;
+    height: 100%;
+    width: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+     .box1{
+    background-color: rgb(81, 156, 125);
+    margin: 10% 0px 0px 0%;
+    height: 80%;
+    width: 99%;
+    }
+}
